@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <div class="profile">
+          <img src="/profile.jpg" alt="Profile" class="profile-img">
+          <div class="profile-info">
+            <h1>Your Name</h1>
+            <p class="title">Software Engineer</p>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fas fa-envelope"></i></a>
+        </div>
+      </header>
+
+      <!-- Navigation -->
+      <nav class="nav-tabs">
+        <button class="tab-btn active" data-tab="home">
+          <i class="fas fa-home"></i> <span> Home </span>
+        </button>
+        <button class="tab-btn" data-tab="experience">
+          <i class="fas fa-briefcase"></i><span>Experience</span>
+        </button>
+        <button class="tab-btn" data-tab="projects">
+          <i class="fas fa-code"></i> <span>Projects</span>
+        </button>
+        <button class="tab-btn" data-tab="resume">
+          <i class="fas fa-file"></i> <span> Resume</span>
+        </button>
+      </nav>
+
+      <!-- Content -->
+      <main class="content">
+        <section id="home" class="tab-content active">
+          <!-- About Section -->
+          <h2 class="section-title">About</h2>
+          <div class="card">
+            <p class="intro-text">
+              Hey, I'm <strong>Your Name</strong> 👋. I am a passionate Developer 💻 who loves to code insane products.
+            </p>
+            <p>
+              I am an Enthusiastic problem solver with excellent communication skills and a strong ability to
+              analyze complex issues and deliver effective solutions. Highly skilled web developer with
+              extensive experience in creating user-friendly web applications.
+            </p>
+          </div>
+
+          <!-- Tech Stack Section -->
+          <h2 class="section-title">Tech Stack</h2>
+          <div class="card">
+            <div class="tech-category">
+              <h3>Languages</h3>
+              <div class="tech-pills">
+                <span class="tech-pill"><i class="fab fa-js"></i> JavaScript</span>
+                <span class="tech-pill"><i class="fab fa-python"></i> Python</span>
+                <span class="tech-pill"><i class="fab fa-java"></i> Java</span>
+              </div>
+            </div>
+            <div class="tech-category">
+              <h3>Frameworks & Libraries</h3>
+              <div class="tech-pills">
+                <span class="tech-pill"><i class="fab fa-react"></i> React.js</span>
+                <span class="tech-pill"><i class="fab fa-node"></i> Node.js</span>
+                <span class="tech-pill"><i class="fab fa-sass"></i> Sass</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Update the existing sections and add new ones -->
+        <!-- Home Section (keep existing) -->
+
+        <!-- Work Experience Section -->
+        <section id="experience" class="tab-content">
+          <h2 class="section-title">Work Experience</h2>
+          <div class="card">
+            <div class="experience-item">
+              <h3>Coademy 🌪</h3>
+              <p><strong>SDE | Internship</strong></p>
+              <ul class="experience-list">
+                <li>Engineered a high-performance backend using RESTful APIs of Express.js...</li>
+                <li>Designed and structured scalable APIs...</li>
+                <li>Helped design team in crafting intuitive interfaces...</li>
+              </ul>
+            </div>
+
+            <div class="experience-item">
+              <h3>DIC MDART 🌪</h3>
+              <p><strong>Artificial Intelligence | Internship</strong></p>
+              <ul class="experience-list">
+                <li>Developed machine learning model to detect brain tumors...</li>
+                <li>Utilized dataset of ~10,000 MRI scans...</li>
+                <li>Achieved 70% accuracy...</li>
+                <li>Focused on image preprocessing techniques...</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Projects Section --><!-- Add this to your HTML -->
+        <section id="projects" class="tab-content">
+          <h2 class="section-title">Projects</h2>
+          <div class="card">
+            <!-- Chess Project -->
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-image-wrapper">
+                  <img src="https://via.placeholder.com/600x300/222/ccc?text=Chess+App" alt="Chess App"
+                    class="project-image">
+                </div>
+                <div class="project-meta">
+                  <h3>Chess Platform</h3>
+                  <div class="tech-pills">
+                    <span class="tech-pill"><i class="fab fa-node"></i> Node.js</span>
+                    <span class="tech-pill"><i class="fas fa-code"></i> TypeScript</span>
+                    <span class="tech-pill"><i class="fas fa-bolt"></i> WebSocket</span>
+                  </div>
+                  <div class="project-links">
+                    <a href="#" class="project-link">
+                      <i class="fab fa-github"></i> Source
+                    </a>
+                    <a href="#" class="project-link">
+                      <i class="fas fa-external-link-alt"></i> Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <p class="project-description">
+                Real-time chess platform enabling global multiplayer matches with
+                Elo rating system and chat functionality. Built with modern
+                WebSocket architecture for seamless interaction.
+              </p>
+            </div>
+
+            <!-- Add more project cards with similar structure -->
+          </div>
+        </section>
+
+        <!-- Resume Section (keep if needed) -->
+      </main>
+    </div>
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+
+</html>
