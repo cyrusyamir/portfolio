@@ -416,9 +416,9 @@ p {
         justify-content: space-around;
     }
 
-    .tab-btn {
-        /* flex: 1 1 calc(50% - 0.5rem); */
-    }
+    /* .tab-btn {
+         flex: 1 1 calc(50% - 0.5rem);
+    } */
 
     .nav-tabs button span{
         display: none;
