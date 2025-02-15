@@ -416,17 +416,27 @@ p {
         justify-content: space-around;
     }
 
+    .card{
+        padding: 0.8rem;
+    }
+
     /* .tab-btn {
          flex: 1 1 calc(50% - 0.5rem);
     } */
 
-    .nav-tabs button span{
+    .nav-tabs button span,
+    .tech-pills{
         display: none;
     }
 
     .tab-btn{
         padding: .45rem .6rem;
     }
+
+    .project-links, .project-header{
+        flex-wrap: wrap;
+    }
+
 }
 
 /* tab view */
